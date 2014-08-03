@@ -1,5 +1,5 @@
 require('node-jsx').install({extension: '.jsx'})
-require("./files/index")
+
 serveStatic = require('serve-static')
 
 debug = require("debug")("react-todo-express")
