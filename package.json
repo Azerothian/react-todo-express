@@ -1,0 +1,43 @@
+{
+  "name": "react-todo-express",
+  "version": "0.0.0",
+  "description": "react-todo-express\r ==================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Azerothian/react-todo-express.git"
+  },
+  "author": "",
+  "browserify": {
+    "transform": [
+      "reactify",
+      "coffeeify"
+    ]
+  },
+  "browser": {
+    "backbone": "./app/files/js/backbone-1.1.0.js",
+    "underscore": "./app/files/js/underscore-1.5.2.js"
+  },
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/Azerothian/react-todo-express/issues"
+  },
+  "homepage": "https://github.com/Azerothian/react-todo-express",
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "react": "~0.11.1",
+    "coffeeify": "~0.7.0",
+    "react-express": "git+https://github.com/Azerothian/react-express",
+    "express": "~4.7.2",
+    "node-jsx": "~0.11.0",
+    "debug": "~1.0.4",
+    "underscore": "~1.6.0",
+    "backbone": "~1.1.2",
+    "node-localstorage": "~0.3.4",
+    "reactify": "~0.14.0",
+    "serve-static": "~1.4.3"
+  }
+}
