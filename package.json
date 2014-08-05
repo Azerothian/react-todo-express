@@ -14,7 +14,8 @@
   "browserify": {
     "transform": [
       "reactify",
-      "coffeeify"
+      "coffeeify",
+      "uglifyify"
     ]
   },
   "browser": {
@@ -27,17 +28,17 @@
   },
   "homepage": "https://github.com/Azerothian/react-todo-express",
   "dependencies": {
+    "backbone": "~1.1.2",
     "coffee-script": "~1.7.1",
-    "react": "~0.11.1",
     "coffeeify": "~0.7.0",
-    "react-express": "git+https://github.com/Azerothian/react-express",
+    "debug": "~1.0.4",
     "express": "~4.7.2",
     "node-jsx": "~0.11.0",
-    "debug": "~1.0.4",
-    "underscore": "~1.6.0",
-    "backbone": "~1.1.2",
-    "node-localstorage": "~0.3.4",
+    "react": "~0.11.1",
+    "react-express": "git+https://github.com/Azerothian/react-express",
     "reactify": "~0.14.0",
-    "serve-static": "~1.4.3"
+    "serve-static": "~1.4.3",
+    "uglifyify": "^2.5.0",
+    "underscore": "~1.6.0"
   }
 }
